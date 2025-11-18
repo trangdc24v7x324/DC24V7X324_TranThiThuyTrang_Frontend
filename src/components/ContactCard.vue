@@ -25,5 +25,9 @@ export default {
       <i v-if="contact.favorite" class="fas fa-check"></i>
       <i v-else class="fas fa-times"></i>
     </div>
+    <div class="p-1">
+      <strong>Tình trạng hôn nhân:</strong>{{ contact.maritalStatus || "Chưa cập nhật" }}
+     </div>
+
   </div>
 </template>
